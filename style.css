@@ -23,13 +23,19 @@ h1, h2 {
     text-align: center;
 }
 
-h1, h2, h3, strong {
+h1, h2, h3 {
+    color: #389f91;
+    font-family: 'Roboto', sans-serif;
+}
+
+strong {
     color: #389f91;
 }
 
 p {
     color: #031627;
     margin: 0.5em 0;
+    font-family: 'Lato', sans-serif;
 }
 
 * {
@@ -47,6 +53,10 @@ ul {
 ol, ul {
     padding: 5px 20px;
     border-radius: 4px;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
 }
 
 .flex-container {
